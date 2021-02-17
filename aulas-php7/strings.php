@@ -13,13 +13,13 @@ aspas simples entende que tudo é texto
 echo "Nome $nome <br>";
 echo 'Nome $nome <br>';
 
-echo "Somente a primeira letra de cada palavra maiúsculo: ".ucwords($nome); // Primeira letra maiusculo
+echo "Somente a primeira letra de cada palavra maiúsculo: ".ucwords($nome);
 echo "<br>";
 echo "Tudo maiúsculo: ".strtoupper($nome); 
 echo "<br>";
 echo "Tudo minusculo: ".strtolower($nome); 
 echo "<br>";
-echo "A primeira letra maiúsculo: ".ucfirst($nome); // Primeira letra maiusculo
+echo "A primeira letra maiúsculo: ".ucfirst($nome); 
 echo "<br>";
 
 echo "<hr>";
