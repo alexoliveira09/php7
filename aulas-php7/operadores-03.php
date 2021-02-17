@@ -1,12 +1,30 @@
 <?php
 
-$valorTotal = 0;
+$a = 10;
+$b = 2;
 
+echo $a + $b;
 
-$valorTotal += 100;
+echo "<br><hr>";
 
-$valorTotal += 25;
+echo $a - $b;
 
-$valorTotal += .1;
+echo "<br><hr>";
 
-echo $valorTotal;
+echo $a * $b;
+
+echo "<br><hr>";
+
+echo $a / $b;
+
+echo "<br><hr>";
+
+// resto
+echo $a % $b;
+
+echo "<br><hr>";
+
+// elevado ao quadrado
+echo $a ** $b; 
+
+echo "<br><hr>";
