@@ -10,4 +10,6 @@ $ip = $_SERVER["REMOTE_ADDR"];
 $SN = $_SERVER["SCRIPT_NAME"];
 
 echo "<br>".$SN;
+
+
 ?>
