@@ -8,12 +8,19 @@
 //     echo $i."<br>";
 // }
 
-for ($i = 0; $i <= 1000; $i+= 5){
+// for ($i = 0; $i <= 1000; $i+= 5){
 
-    if($i > 200 && $i < 800) continue;
+//     if($i > 200 && $i < 800) continue;
+
+//     echo $i."<br>";
+// }
+
+echo "<select>";
+for ($i = date("Y"); $i >= date("Y")-100; $i--){
     
-    echo $i."<br>";
+    echo "<option> ". $i ." </option>";
 }
+echo "</select>";
 
 /** CUIDADO LOOP INFINITO */
 
