@@ -41,5 +41,5 @@ var_dump($texto);
 
 $texto2 = substr($frase, $l + strlen($palavra), strlen($frase));
 echo "<br>";
-echo $texto2;
+var_dump($texto2);
 
